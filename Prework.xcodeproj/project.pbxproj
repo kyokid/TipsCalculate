@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D03007B21D984F9100448DEC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03007B11D984F9100448DEC /* SettingsViewController.swift */; };
 		D0F835461D984ADD00BBBCF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F835451D984ADD00BBBCF7 /* AppDelegate.swift */; };
 		D0F835481D984ADD00BBBCF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F835471D984ADD00BBBCF7 /* ViewController.swift */; };
 		D0F8354B1D984ADD00BBBCF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F835491D984ADD00BBBCF7 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D03007B11D984F9100448DEC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D0F835421D984ADD00BBBCF7 /* Prework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F835451D984ADD00BBBCF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0F835471D984ADD00BBBCF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				D0F8354C1D984ADD00BBBCF7 /* Assets.xcassets */,
 				D0F8354E1D984ADD00BBBCF7 /* LaunchScreen.storyboard */,
 				D0F835511D984ADD00BBBCF7 /* Info.plist */,
+				D03007B11D984F9100448DEC /* SettingsViewController.swift */,
 			);
 			path = Prework;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				D0F835481D984ADD00BBBCF7 /* ViewController.swift in Sources */,
 				D0F835461D984ADD00BBBCF7 /* AppDelegate.swift in Sources */,
+				D03007B21D984F9100448DEC /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +516,7 @@
 				D0F8356C1D984ADD00BBBCF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0F8356D1D984ADD00BBBCF7 /* Build configuration list for PBXNativeTarget "PreworkTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				D0F8356F1D984ADD00BBBCF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0F835701D984ADD00BBBCF7 /* Build configuration list for PBXNativeTarget "PreworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				D0F835721D984ADD00BBBCF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
