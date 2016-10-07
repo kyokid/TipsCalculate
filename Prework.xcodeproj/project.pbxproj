@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D02163FD1DA586DB00B9D5A1 /* CurrencyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02163FC1DA586DB00B9D5A1 /* CurrencyUtils.swift */; };
 		D03007B21D984F9100448DEC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03007B11D984F9100448DEC /* SettingsViewController.swift */; };
 		D0F835461D984ADD00BBBCF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F835451D984ADD00BBBCF7 /* AppDelegate.swift */; };
 		D0F835481D984ADD00BBBCF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F835471D984ADD00BBBCF7 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D02163FC1DA586DB00B9D5A1 /* CurrencyUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyUtils.swift; sourceTree = "<group>"; };
 		D03007B11D984F9100448DEC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D0F835421D984ADD00BBBCF7 /* Prework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F835451D984ADD00BBBCF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D02163FB1DA586AA00B9D5A1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D02163FC1DA586DB00B9D5A1 /* CurrencyUtils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D0CCA4911DA7B9D8009F5CD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F835451D984ADD00BBBCF7 /* AppDelegate.swift */,
+				D0F8354C1D984ADD00BBBCF7 /* Assets.xcassets */,
+				D0F8354E1D984ADD00BBBCF7 /* LaunchScreen.storyboard */,
+				D0F835511D984ADD00BBBCF7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D0F835391D984ADD00BBBCF7 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +120,10 @@
 		D0F835441D984ADD00BBBCF7 /* Prework */ = {
 			isa = PBXGroup;
 			children = (
-				D0F835451D984ADD00BBBCF7 /* AppDelegate.swift */,
+				D02163FB1DA586AA00B9D5A1 /* Utils */,
+				D0CCA4911DA7B9D8009F5CD0 /* Supporting Files */,
 				D0F835471D984ADD00BBBCF7 /* ViewController.swift */,
 				D0F835491D984ADD00BBBCF7 /* Main.storyboard */,
-				D0F8354C1D984ADD00BBBCF7 /* Assets.xcassets */,
-				D0F8354E1D984ADD00BBBCF7 /* LaunchScreen.storyboard */,
-				D0F835511D984ADD00BBBCF7 /* Info.plist */,
 				D03007B11D984F9100448DEC /* SettingsViewController.swift */,
 			);
 			path = Prework;
@@ -267,6 +286,7 @@
 			files = (
 				D0F835481D984ADD00BBBCF7 /* ViewController.swift in Sources */,
 				D0F835461D984ADD00BBBCF7 /* AppDelegate.swift in Sources */,
+				D02163FD1DA586DB00B9D5A1 /* CurrencyUtils.swift in Sources */,
 				D03007B21D984F9100448DEC /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
